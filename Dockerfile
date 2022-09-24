@@ -1,6 +1,6 @@
 FROM debian:stable-slim
 
-ENV ALFIS_VERSION=v0.6.10
+ENV ALFIS_VERSION=v0.8.2
 
 RUN apt-get update && apt-get install -y wget
 
