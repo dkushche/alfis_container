@@ -8,4 +8,4 @@ if [ ! -f ${conf_file} ]; then
     alfis -g > ${conf_file}
 fi
 
-exec alfis -w /mnt/storage/
+exec alfis -w /mnt/storage/ -l alfis.log
