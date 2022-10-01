@@ -1,7 +1,8 @@
 # Alfis Service Image
 
 [Alfis](https://github.com/Revertron/Alfis) DNS docker image. Container reads and stores configs and logs in `/mnt/storage` directory. You could manipulate these files if mount the directory on the host.
-Docker compose example:
+
+_Docker compose entry example:_
 
 ```yml
 alfis:
